@@ -95,7 +95,7 @@ CHECK PYTHON VERSION
     
 ### STEP 7 Edit the mariadb configuration ( unicode character encoding )
 
-    sudo nano /etc/mysql/my.cnf
+    sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 
 add this to the my.cnf file after first 3 lines
 
